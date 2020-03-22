@@ -40,7 +40,7 @@ This prototype has three services that can be accessed:
 ```
 
 ## Data used
-This API uses the data that is in the csv file inside "database" directory. Those data were extracted from kaggle and some pre-processing procedures were required like the use of fuzzywuzzy package to correct the name of some states.
+This API uses the data that is in the csv file called 'geolocation_information_brazil_202001071625'. Those data were extracted from kaggle and some pre-processing procedures were required like the use of fuzzywuzzy package to correct the name of some states.
 The database has the mean latitude and longitude for each zipcode prefix. 
 
 Besides that, another database is consulted in the code to get the closer store. This consulting is made inside the function 'find_closer_store' in auxiliary_functions module.
